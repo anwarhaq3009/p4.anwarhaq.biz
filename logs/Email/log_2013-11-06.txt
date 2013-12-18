@@ -1,0 +1,15 @@
+2013-11-06 4:53:56 - INFO --> -------------------------- 
+2013-11-06 4:53:56 - INFO --> Controller/Method: users/p_login 
+2013-11-06 4:53:58 - INFO --> OUTGOING EMAILS ARE DISABLED. THIS EMAIL WAS NOT SENT TO THE RECIPIENTS, ONLY anwarhaq.us@anwarhaq.biz 
+2013-11-06 4:53:58 - INFO --> From: Talk-Blog (anwarhaq.uss@anwarhaq.biz) 
+2013-11-06 4:53:58 - INFO --> To: Talk-Blog (anwarhaq.us@anwarhaq.biz),  
+2013-11-06 4:53:58 - INFO --> CC:  
+2013-11-06 4:53:58 - INFO --> BCC:  
+2013-11-06 4:53:58 - INFO --> Subject: Talk-Blog SQL Error 
+2013-11-06 4:53:58 - INFO --> Body: <h2>SQL Error</h2>Access denied for user 'anwarhaq_p2'@'localhost' (using password: YES)<h2>Query History</h2><h2>Routed Controller/Method:</h2> users/p_login<br/><h2>Cookies</h2><pre>Array
+(
+    [PHPSESSID] => r5as8cinktl4c4qqsdul8shsb5
+)
+</pre><h2>POST</h2><pre>Array
+(
+    [email] => anwarhaq.us@a 

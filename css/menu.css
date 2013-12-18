@@ -1,0 +1,87 @@
+body {
+	behavior: url(csshover.htc);
+	font-size:11px;
+	font-family:Arial, Helvetica, sans-serif;
+	float:center;
+}
+ 
+ h1{
+    font-family: helvetica, sans-serif;
+    font-style:italic;	
+	font-size: 3.0em;
+	display: block;
+    font-weight: bold;
+    margin: 0.83em 0;
+	color: #000;
+	}
+
+ul#nav {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+
+ul#nav li a {
+	display: block;
+	font-weight: bold;
+	height:50px;
+	padding: 2px 10px;
+	background:#FECE2F;
+}
+
+ul#nav li a:hover{
+	background:#fff;
+	color:#0074C7;
+	}
+	
+ul#nav li {
+	float: left;
+	position: relative;
+	width: 100px;
+	text-align: center;
+	margin-right:5px;
+	border:1px solid #ccc;
+
+}
+
+ul#nav li.current a{
+	background:#fff;
+	color:#0074C7;
+	
+	}
+
+ul#nav li.current a:hover{
+	background:#817865;
+		color:#FECE2F;
+	}
+
+li ul {
+	display: none;
+	position: absolute;
+	width:100px;
+	top: 0;
+	left: 0;
+	font-weight: normal;
+	padding: 1px 0 10px 0;
+	margin-left:-1px;
+}
+
+ul#nav li ul.sub li{
+	border-width:0 1px 1px 1px!important;
+}
+
+ul#nav li ul.sub li a{
+	font-weight: normal!important;	
+			height:20px;
+}
+li>ul {
+	top: auto;
+	left: auto;
+}
+
+li:hover ul, li.over ul {
+	display: block;
+}
+
+
