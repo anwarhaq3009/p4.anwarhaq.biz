@@ -64,10 +64,6 @@
 			<div class="content clearfix">
 				<div class="left">
 					<h1>Case Management System</h1>
-					<h2>Sliding login panel Demo with jQuery</h2>		
-					<p class="grey">You can put anything you want in this sliding panel: videos, audio, images, forms... The only limit is your imagination!</p>
-					<h2>Download</h2>
-					<p class="grey">To download this script go back to <a href="http://web-kreation.com/index.php/tutorials/nice-clean-sliding-login-panel-built-with-jquery" title="Download">article &raquo;</a></p>
 				</div>
 				<div class="left">
 					<!-- Login Form -->

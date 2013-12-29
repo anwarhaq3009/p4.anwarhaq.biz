@@ -6,10 +6,10 @@ $dbservertype='mysql';
 
 $servername='localhost';
 
-$dbusername='root';
-$dbpassword='';
+$dbusername='anwarhaq_p4';
+$dbpassword='p4casems';
 
-$dbname='p4.anwarhaq.biz';
+$dbname='anwarhaq_p4_anwarhaq_biz';
 
 connecttodb($servername,$dbname,$dbusername,$dbpassword);
 function connecttodb($servername,$dbname,$dbuser,$dbpassword)
@@ -53,8 +53,8 @@ A email designated to receive messages from the server. Examples:
 	define('SYSTEM_EMAIL', 'anwarhaq.us@gmail.com'); 
 
 # Default DB name for this app
-	#define('DB_NAME', 'anwarhaq_p4_anwarhaq_biz'); 
-	define('DB_NAME', 'p4.anwarhaq.biz'); 
+	define('DB_NAME', 'anwarhaq_p4_anwarhaq_biz'); 
+	#define('DB_NAME', 'p4.anwarhaq.biz'); 
 
 # Timezone
 	define('TIMEZONE', 'America/New_York');
